@@ -1,0 +1,18 @@
+.AppartmentRoom {
+    border-color: "red";
+}
+
+.AppartmentRoom img {
+    position: "absolute";
+    animation: blink 15s infinite;
+}
+
+@keyframes blink {
+    0%, 45%, 55%, 100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1
+    }
+}

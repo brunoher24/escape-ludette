@@ -1,0 +1,41 @@
+.Appartment {
+    margin-top: 50px;
+}
+
+.appartmentRow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.firstIndication {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.tableSalon {
+    border: 2px solid;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 12%;
+}
+
+.planTravail {
+    border: 2px solid;
+    width: 60%;
+    height: 15%;
+    position: absolute;
+    top: -10%;
+    left: 20%;
+}
+
+.answerForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
